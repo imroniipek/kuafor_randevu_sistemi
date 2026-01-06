@@ -1,0 +1,226 @@
+{
+  "project_info": {
+    "project_number": "778060244891",
+    "project_id": "my-cool-project-2001",
+    "storage_bucket": "my-cool-project-2001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:c5867f9bf6bb228e4ca33e",
+        "android_client_info": {
+          "package_name": "com.example.kuafor_randevu_takip_uygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:179a15c7ac5d47854ca33e",
+        "android_client_info": {
+          "package_name": "com.example.my_drink_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:f6c843b877cf84604ca33e",
+        "android_client_info": {
+          "package_name": "com.example.online_chat_uygulamam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:6cd2c13b870fd7154ca33e",
+        "android_client_info": {
+          "package_name": "com.example.staj_projesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:0446a70b5c5837ec4ca33e",
+        "android_client_info": {
+          "package_name": "com.example.stajproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778060244891:android:1ac174e8232d49e04ca33e",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdabuq7gCHFW785lrb6FaxBdDBPCg1up8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778060244891-5qsl5jiqd7cbpc36d5i2hul1hals0p72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778060244891-47o6i4f30jbebt1mjjt2u4mlrtsqjnef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineChatUygulamam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
