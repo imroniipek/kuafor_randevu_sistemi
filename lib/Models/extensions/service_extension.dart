@@ -1,28 +1,22 @@
-
 import 'package:flutter/material.dart';
 
-import '../../core/consts.dart';
 import '../service_model.dart';
 
-extension ServiceExtension on ServiceModel
-{
+extension ServiceExtension on ServiceModel {
+  Icon returnTheIconData() {
 
-  Icon returnTheIconData()
-  {
-    switch(category)
-    {
-      case("Saç"):
-        return Icon(Icons.content_cut,size:30,color:Consts.colors[0]);
-
-      case("Sakal"):
-        return Icon(Icons.face,size:30,color:Consts.colors[1]);
-
-      case("Bakım"):
-        return Icon(Icons.auto_awesome,size:30,color:Consts.colors[2]);
-
-      default:
-        return Icon(Icons.person,size:30,color:Consts.colors[3]);
+    IconData iconData;
+    switch (category) {
+      case Category.Hair:
+        iconData = Icons.content_cut_rounded;
+        break;
+      case Category.Beard:
+        iconData = Icons.face_retouching_natural;
+        break;
+      case Category.Care:
+        iconData = Icons.clean_hands_rounded;
+        break;
     }
-
+    return Icon(iconData, size: 35, color: color);
   }
 }

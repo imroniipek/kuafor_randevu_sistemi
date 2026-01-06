@@ -13,14 +13,15 @@ class GreetingHeader extends StatelessWidget {
         decoration: BoxDecoration(
           color: const Color(0xFF16161A),
           borderRadius: BorderRadius.circular(18),
+          border:Border.all(color:Colors.white)
         ),
         padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Merhaba, Alvin", style: GoogleFonts.poppins(fontSize: 22, fontWeight: FontWeight.w600, color: Color(0xFFEAEAEA),),),
+            Text("Merhaba, Alvin", style: GoogleFonts.poppins(fontSize: 25, fontWeight: FontWeight.w600, color: Color(0xFFEAEAEA),),),
             const SizedBox(height: 6),
-            Text("Kişisel Bakım Zamanı", style: GoogleFonts.poppins(fontSize: 14, color: Color(0xFF9CA3AF),),),
+            Text("Kişisel Bakım Zamanı", style: GoogleFonts.poppins(fontSize: 20, color: Color(0xFF9CA3AF),),),
           ],
         ),
       );

@@ -27,14 +27,11 @@ class CreateNewMeeting extends StatelessWidget {
           borderRadius: BorderRadius.circular(22),
           onTap: () {
 
-
-
-
-
           },
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 22),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
                   padding: const EdgeInsets.all(12),
@@ -51,15 +48,12 @@ class CreateNewMeeting extends StatelessWidget {
                     children: [
                       Text("Randevu Al", style: GoogleFonts.poppins(fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white,),),
                       const SizedBox(height: 5),
-                      Text("Hemen randevu al Tarzını Konuştur", style: GoogleFonts.poppins(fontSize: 13, color: Colors.white.withOpacity(0.85),),),
+                      Text("Hemen randevu al ve Tarzını Konuştur", style: GoogleFonts.poppins(fontSize: 13, color: Colors.white.withOpacity(0.85),),),
                     ],
                   ),
                 ),
-                const Icon(
-                  Icons.arrow_forward_ios_rounded,
-                  color: Colors.white,
-                  size: 16,
-                ),
+                const SizedBox(width: 10),
+                const Icon(Icons.arrow_forward_ios_rounded, color: Colors.white, size: 35,),
               ],
             ),
           ),
