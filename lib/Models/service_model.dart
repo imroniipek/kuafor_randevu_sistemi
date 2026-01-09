@@ -10,7 +10,8 @@ class ServiceModel {
   final Category category;
   Color color;
 
-  ServiceModel({required this.id, required this.name, required this.price, required this.duration, required this.category}):color = Consts.colors[Random().nextInt(Consts.colors.length)];
+  ServiceModel({required this.id, required this.name, required this.price, required this.duration, required this.category})
+      :color = Consts.colors[Random().nextInt(Consts.colors.length)];
 
   factory ServiceModel.fromMap(String id, Map<String, dynamic> map)
   {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:kuafor_randevu_takip_uygulamasi/appointment/view/step_view.dart';
 
 class CreateNewMeeting extends StatelessWidget {
   const CreateNewMeeting({super.key});
@@ -13,20 +14,21 @@ class CreateNewMeeting extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Color(0xFF1F7A5B),
-            Color(0xFF145A44),
+            Color(0xFF6D5DF6),
+            Color(0xFF3A2F7A),
           ],
         ),
         boxShadow: [
-          BoxShadow(color: Color(0xFF1F7A5B).withOpacity(0.35), blurRadius: 22, offset: const Offset(0, 10),),
+          BoxShadow(color: Color(0xFF6D5DF6).withOpacity(0.15), blurRadius: 22, offset: const Offset(0, 10),),
         ],
       ),
       child: Material(
         color: Colors.transparent,
         child: InkWell(
           borderRadius: BorderRadius.circular(22),
-          onTap: () {
-
+          onTap: ()
+          {
+            Navigator.push(context,MaterialPageRoute(builder: (context)=>StepView()));
           },
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 22),
