@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:kuafor_randevu_takip_uygulamasi/appointment/view/step_view.dart';
-
+import 'package:kuafor_randevu_takip_uygulamasi/appointment/view/step_indicator.dart';
 class CreateNewMeeting extends StatelessWidget {
   const CreateNewMeeting({super.key});
 
@@ -10,25 +9,14 @@ class CreateNewMeeting extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(22),
-        gradient: const LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            Color(0xFF6D5DF6),
-            Color(0xFF3A2F7A),
-          ],
-        ),
-        boxShadow: [
-          BoxShadow(color: Color(0xFF6D5DF6).withOpacity(0.15), blurRadius: 22, offset: const Offset(0, 10),),
-        ],
-      ),
+          color:Color(0xFF1E293B),),
       child: Material(
         color: Colors.transparent,
         child: InkWell(
           borderRadius: BorderRadius.circular(22),
           onTap: ()
           {
-            Navigator.push(context,MaterialPageRoute(builder: (context)=>StepView()));
+            Navigator.push(context,MaterialPageRoute(builder: (context)=>AppointmentPage()));
           },
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 22),

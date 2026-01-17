@@ -24,29 +24,11 @@ class _CustomerPageState extends State<CustomerPage> {
   }
   @override
   Widget build(BuildContext context) {
-    const Color cardBg = Color(0xFF1E293B);
-    const Color electricIndigo = Color(0xFF6366F1);
-
     return Scaffold(
       backgroundColor: Colors.black87,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: Text("Roni Berber Artist", style: GoogleFonts.lexend(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w600, letterSpacing: -0.5,),),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: electricIndigo.withOpacity(0.15),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: IconButton(
-                icon: const Icon(Icons.notifications_active_outlined, color: electricIndigo),
-                onPressed: () {},
-              ),
-            ),
-          ),
-        ],
       ),
       body:
          BlocBuilder<CustomerBloc,CustomerStatus>(
@@ -61,21 +43,11 @@ class _CustomerPageState extends State<CustomerPage> {
                        child: Column(
                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                          children: [
-                           Container(
-                             width: double.infinity,
-                             padding: const EdgeInsets.all(24),
-                             decoration: BoxDecoration(
-                               gradient: LinearGradient(
-                                 colors: [cardBg, cardBg.withOpacity(0.5)],
-                                 begin: Alignment.topLeft,
-                                 end: Alignment.bottomRight,
-                               ),
-                               borderRadius: BorderRadius.circular(30),
-                             ),
-                             child: const GreetingHeader(name: "Alvin"),
-                           ),
+                           const SizedBox(height: 15),
 
-                           const SizedBox(height: 25),
+                           const GreetingHeader(name: "Fatih"),
+
+                           const SizedBox(height: 30),
 
                            const CreateNewMeeting(),
 
@@ -85,7 +57,7 @@ class _CustomerPageState extends State<CustomerPage> {
                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                              children: [
                                Text("Servis Seçimi", style: GoogleFonts.lexend(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500,),),
-                               Text("Hepsini Gör", style: GoogleFonts.lexend(color: electricIndigo, fontSize: 14, fontWeight: FontWeight.w400,),),
+                               Text("Hepsini Gör", style: GoogleFonts.lexend(color: Colors.deepPurpleAccent, fontSize: 14, fontWeight: FontWeight.w400,),),
                              ],
                            ),
                            const SizedBox(height: 25),
@@ -108,7 +80,7 @@ class _CustomerPageState extends State<CustomerPage> {
                  }
                else if(state.status==PageStatus.error)
                {
-                 return Center(child:Text("Database Service Elemanları Bulunamadı"));
+                 return Center(child:Text("Service Elemanları Bulunamadı"));
                }
                else
                  {

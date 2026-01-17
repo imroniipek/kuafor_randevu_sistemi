@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../service_model.dart';
 
 extension ServiceExtension on ServiceModel {

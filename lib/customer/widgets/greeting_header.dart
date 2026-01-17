@@ -10,6 +10,7 @@ class GreetingHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return
       Container(
+        width:double.infinity,
         decoration: BoxDecoration(
           color: const Color(0xFF16161A),
           borderRadius: BorderRadius.circular(18),
@@ -19,14 +20,11 @@ class GreetingHeader extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Merhaba, Alvin", style: GoogleFonts.poppins(fontSize: 25, fontWeight: FontWeight.w600, color: Color(0xFFEAEAEA),),),
+            Text("Merhaba, $name", style: GoogleFonts.poppins(fontSize: 25, fontWeight: FontWeight.w600, color: Color(0xFFEAEAEA),),),
             const SizedBox(height: 6),
             Text("Kişisel Bakım Zamanı", style: GoogleFonts.poppins(fontSize: 20, color: Color(0xFF9CA3AF),),),
           ],
         ),
       );
-
-
-
   }
 }

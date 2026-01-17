@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'dart:math';
 import '../core/consts.dart';
+
 enum Category { Hair, Beard, Care }
 class ServiceModel {
   final String id;
