@@ -10,5 +10,11 @@ class RemoveServiceForAppoinmentList extends AppoinmentsEvent
   final String id;
   RemoveServiceForAppoinmentList({required this.id});
 }
+class ChooseTheDate extends AppoinmentsEvent
+{
+  final DateTime date;
+
+  ChooseTheDate({required this.date});
+}
 
 

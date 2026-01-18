@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:kuafor_randevu_takip_uygulamasi/Models/hairdresser.dart';
 import 'package:kuafor_randevu_takip_uygulamasi/Models/service_model.dart';
 import 'package:kuafor_randevu_takip_uygulamasi/repository/general_repository.dart';
 
@@ -22,7 +23,17 @@ class ServiceRepository extends GeneralRepository
     return models;
 
   }
-  
+  @override
+  Future<List<HairDresser>> getAllOfHairDresserFromDb() 
+  async {
+    List<HairDresser>hairdressers=[];
+    final snapshot=await _db.collection("hairdressers").get();
+    for(var doc in snapshot.docs)
+      {
+        hairdressers.add(HairDresser.getFromDb(doc.data()));
+      }
+    return hairdressers;
+  }
 }
 
 

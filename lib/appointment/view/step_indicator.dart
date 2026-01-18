@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:kuafor_randevu_takip_uygulamasi/appointment/widgets/hairdresser_step.dart';
 import 'package:kuafor_randevu_takip_uygulamasi/appointment/widgets/service_step.dart';
 import 'package:kuafor_randevu_takip_uygulamasi/repository/service_repository/service_repository.dart';
 import '../../Models/service_model.dart';
@@ -71,7 +72,7 @@ class _AppointmentPageState extends State<AppointmentPage> {
                 index: currentStep,
                 children: [
                   ServiceStep(services: models ?? []),
-                  const Center(child: Text("Tarih Seçimi", style: TextStyle(color: Colors.white))),
+                  HairdresserStep(),
                   const Center(child: Text("Personel Seçimi", style: TextStyle(color: Colors.white))),
                   const Center(child: Text("Özet", style: TextStyle(color: Colors.white))),
                 ],

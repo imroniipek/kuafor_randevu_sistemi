@@ -52,7 +52,7 @@ class ServicesCard extends StatelessWidget {
                   child: Icon(model.returnTheIconData().icon, color: model.color, size: 30,),),
                 const SizedBox(height: 15),
 
-                Text(model.name, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: GoogleFonts.lexend(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w600,),),
+                Text(model.name, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: GoogleFonts.lexend(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w400,),),
                 const SizedBox(height: 5),
 
                 Container(
